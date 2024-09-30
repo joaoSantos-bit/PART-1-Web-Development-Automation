@@ -1,0 +1,42 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-header-line {
+    border-bottom: 2px solid #000;
+}
+
+tr {
+    border-bottom: 1px solid #ccc;
+}
+
+td, th {
+    padding: 10px;
+    border: none;
+    text-align: left;
+}
+
+.detailsBtn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.detailsBtn:hover {
+    background-color: #0056b3;
+}
+
+.detailsBtn:focus {
+    outline: none;
+}
+
+.detailsBtn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

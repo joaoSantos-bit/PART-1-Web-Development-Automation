@@ -1,0 +1,36 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+}
+
+.nav-list-item {
+    list-style: none;
+}
+
+.nav-list-item-link {
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #d3162a;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.nav-list-item-link:hover {
+    background-color: #b11222;
+}
